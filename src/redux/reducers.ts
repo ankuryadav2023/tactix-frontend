@@ -5,7 +5,7 @@ import { playerType } from "../types";
 export const socketReducer = (state: any = null, action: PayloadAction<any>) => {
     switch (action.type) {
         case 'INITIALIZE_SOCKET':
-            return io('http://localhost')
+            return io('https://tactix-backend.onrender.com')
         default:
             return state;
     }
