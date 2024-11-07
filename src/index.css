@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-input{
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.my-btn{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px gray;
+}
+
+.my-btn:active{
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.my-paragraph{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.register-container{
+  width: 35%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.game-container{
+  width: 100%;
+}
+
+.game-lobby-and-board-container{
+  width: 45%;
+  height: 85vh;
+}
+
+.matches-played-paragraph{
+  border: 2px solid gray;
+  color: rgb(75, 75, 75);
+  font-size: xx-large;
+}
+
+.player-and-score-paragraph{
+  border: 2px solid gray;
+  color: gray;
+  font-size: x-large;
+}
+
+.waiting-paragraph{
+  color: #5AAFAB;
+}
+
+.chat-container{
+  width: 45%;
+  height: 85vh;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.chat-messages-container{
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.chat-message-paragraph{
+  background-color: rgba(127, 255, 212, 0.614);
+  border-radius: 5px;
+}
+
+.game-board-row {
+  width: 90%;
+  height: 150px;
+}
+
+.game-board-cell {
+  background-color: antiquewhite;
+  color: gray;
+  border-radius: 5px;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.winner-paragraph{
+  color: #5AAFAB;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.congrats-paragraph{
+  color: #5AAFAB;
+  font-size: large;
+  font-weight: 400;
+}
